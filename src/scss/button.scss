@@ -1,0 +1,57 @@
+@import './variables';
+
+.button {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  background-color: $button-base-color;
+  border-bottom: 1px solid $border-color;
+  border-left: 0;
+  border-right: 1px solid $border-color;
+  border-top: 0;
+  box-shadow: inset -1px -1px 0 0 $button-shadow;
+  color: $air;
+  cursor: pointer;
+  font-size: 1.1rem;
+  outline: none;
+  width: 25%;
+
+  &_primaryOperator {
+    background-color: $primary-color;
+    border-right: 0;
+    box-shadow: inset 0 -1px 0 0 rgba(255, 255, 255, .13);
+    font-size: 1.2rem;
+    font-weight: 900;
+  }
+
+  &_runOperator {
+    background-color: $secondary-color;
+    border-bottom: 0;
+    border-right: 0;
+    box-shadow: 1px 6px 20px 5px $button-shadow;
+    color: $air;
+    font-weight: bold;
+  }
+
+  &_runOperator.active {
+    background-color: $secondary-color;
+    box-shadow: inset 1px 5px 9px 0 rgba(0, 0, 0, .37);
+  }
+}
+
+.active {
+  box-shadow: inset 0 -3px 8px 0 $button-shadow;
+}
+
+.button:nth-child(17),
+.button:nth-child(18),
+.button:nth-child(19) {
+  border-bottom: 0;
+  box-shadow: inset -1px 0 0 0 $button-shadow;
+
+  &.active {
+    box-shadow: inset 0 3px 8px 0 $button-shadow;
+  }
+}
+
+.button:nth-child(19) {
+  font-size: .8rem;
+}

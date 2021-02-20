@@ -1,0 +1,23 @@
+@import './variables';
+
+.github {
+  display: none;
+  fill: $air;
+  left: 50%;
+  margin-top: 50px;
+  position: relative;
+  transform: translate(0, -50%);
+
+  span {
+    visibility: hidden;
+  }
+
+  &:active {
+    left: 50.1%;
+    top: 1px;
+  }
+
+  &:hover {
+    fill: #a9b9f1;
+  }
+}

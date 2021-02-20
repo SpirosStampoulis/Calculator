@@ -1,0 +1,77 @@
+@import './variables';
+
+@media screen and (min-width: 450px) {
+  .home {
+    width: 98%;
+
+    &__content {
+      height: 88vh;
+      margin: 0 auto;
+      width: inherit;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .home {
+    &__content {
+      height: 600px;
+      position: relative;
+      width: 360px;
+    }
+  }
+
+  .github {
+    display: inline-block;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .github {
+    display: inline-block;
+  }
+
+  .home {
+    &__content {
+      height: 600px;
+      position: relative;
+      width: 360px;
+    }
+  }
+
+  .button {
+    &:active {
+      background-color: $button-base-color;
+      box-shadow: inset 0 -3px 8px 0 $button-shadow;
+    }
+
+    &:nth-child(17),
+    &:nth-child(18),
+    &:nth-child(19) {
+      &:active {
+        box-shadow: inset 0 3px 8px 0 $button-shadow;
+      }
+    }
+
+    &_primaryOperator:hover {
+      background-color: darken($primary-color, 5%);
+    }
+
+    &_runOperator:hover {
+      background-color: darken($secondary-color, 2%);
+    }
+
+    &:hover:not(&_runOperator):not(&_primaryOperator):not(:active) {
+      background-color: lighten($button-base-color, 1%);
+    }
+
+    &_primaryOperator:active {
+      background-color: $primary-color;
+    }
+
+    &_runOperator:active {
+      background-color: $secondary-color;
+      box-shadow: inset 1px 5px 9px 0 rgba(0, 0, 0, .37);
+    }
+  }
+}

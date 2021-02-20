@@ -1,0 +1,15 @@
+@import 'fonts';
+@import './variables';
+
+* {
+  box-sizing: border-box;
+}
+
+button {
+  font-family: inherit;
+  margin: 0;
+}
+
+a {
+  color: $air;
+}
