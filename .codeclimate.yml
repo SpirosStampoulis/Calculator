@@ -1,0 +1,9 @@
+exclude_patterns:
+- "**/node_modules/"
+- "**/spec/"
+- "**/public/"
+- "**/*.py"
+- "workbox-config.js"
+- "webpack.config.js"
+- "runtime.webpack.config.js"
+- "postcss.config.js"
