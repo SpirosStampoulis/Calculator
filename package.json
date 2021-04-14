@@ -36,7 +36,7 @@
     ]
   },
   "devDependencies": {
-    "@babel/cli": "^7.12.10",
+    "@babel/cli": "^7.13.14",
     "@babel/core": "^7.13.13",
     "@babel/helper-compilation-targets": "^7.12.13",
     "@babel/plugin-proposal-object-rest-spread": "^7.12.13",
@@ -60,7 +60,7 @@
     "enzyme-adapter-react-16": "^1.15.6",
     "eslint": "7.24.0",
     "eslint-loader": "4.0.2",
-    "eslint-plugin-react": "7.22.0",
+    "eslint-plugin-react": "7.23.2",
     "extract-text-webpack-plugin": "3.0.2",
     "file-loader": "6.2.0",
     "howler": "2.2.1",
