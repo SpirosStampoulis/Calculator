@@ -91,7 +91,7 @@
     "webpack": "4.46.0",
     "webpack-cleanup-plugin": "0.5.1",
     "webpack-cli": "^4.7.2",
-    "webpack-dev-server": "3.11.2",
+    "webpack-dev-server": "4.5.0",
     "webpack-merge": "^5.8.0",
     "workbox-cli": "^6.2.4",
     "workbox-webpack-plugin": "^6.1.5"
