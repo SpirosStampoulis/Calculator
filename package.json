@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
-    "@babel/runtime": "^7.15.3",
+    "@babel/runtime": "^7.16.5",
     "prop-types": "^15.7.2"
   },
   "jest": {
@@ -41,13 +41,13 @@
     "@babel/helper-compilation-targets": "^7.15.0",
     "@babel/plugin-proposal-object-rest-spread": "^7.16.5",
     "@babel/plugin-transform-runtime": "^7.15.0",
-    "@babel/preset-env": "^7.16.4",
+    "@babel/preset-env": "^7.16.5",
     "@babel/preset-react": "^7.16.5",
     "@babel/register": "^7.15.3",
     "autoprefixer": "10.4.0",
     "babel-core": "^7.0.0-bridge.0",
     "babel-eslint": "^10.1.0",
-    "babel-jest": "^27.4.2",
+    "babel-jest": "^27.4.5",
     "babel-loader": "^8.2.3",
     "babel-minify-webpack-plugin": "^0.3.1",
     "babel-plugin-webpack-loaders": "0.9.0",
@@ -71,7 +71,7 @@
     "json-loader": "0.5.7",
     "mini-css-extract-plugin": "^1.6.2",
     "node-sass": "^7.0.0",
-    "postcss-cssnext": "3.1.0",
+    "postcss-cssnext": "3.1.1",
     "postcss-loader": "4.2.0",
     "raw-loader": "4.0.2",
     "react": "16.14.0",
