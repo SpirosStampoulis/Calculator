@@ -43,7 +43,7 @@
     "@babel/plugin-transform-runtime": "^7.15.0",
     "@babel/preset-env": "^7.16.4",
     "@babel/preset-react": "^7.16.5",
-    "@babel/register": "^7.15.3",
+    "@babel/register": "^7.16.5",
     "autoprefixer": "10.4.0",
     "babel-core": "^7.0.0-bridge.0",
     "babel-eslint": "^10.1.0",
